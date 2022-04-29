@@ -1,0 +1,8 @@
+package dam.ep.model;
+
+public class CD {
+	private int capacidadMB;
+	private String tipo;
+	
+	
+}

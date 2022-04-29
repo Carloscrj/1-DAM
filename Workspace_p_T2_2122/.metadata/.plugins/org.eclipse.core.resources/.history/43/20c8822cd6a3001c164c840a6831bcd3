@@ -1,0 +1,15 @@
+package dam.ep.model;
+
+public class CDMp3 extends CD {
+	private String nombre;
+	private int numCanciones;
+	
+	public CDMp3(int capacidadMB, String tipo, String nombre, int numCanciones) {
+		super(capacidadMB, tipo);
+		this.nombre = nombre;
+		this.numCanciones = numCanciones;
+	}
+	
+	
+	
+}

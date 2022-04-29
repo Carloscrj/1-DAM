@@ -1,0 +1,34 @@
+package mcv.ejecutable;
+
+import java.awt.EventQueue;
+import mvc.control.ControladorRecetario;
+import mvc.modelo.ListaRecetas;
+import mvc.view.PanelConsultar;
+import mvc.view.PanelIntroducir;
+import mvc.view.VRecetario;
+
+
+
+public class InicioRecetario {
+
+	public static void main(String[] args) {
+		
+	EventQueue.invokeLater(new Runnable() {
+			
+			@Override
+			public void run() {
+				VRecetario ventana = new VRecetario(); //para crear la ventana necesitamos los datos por parámetro
+				PanelIntroducir poIntroducir = new PanelIntroducir(); //también creamos los objetos de las nuevas ventanas creadas
+				PanelConsultar poConsultar = new PanelConsultar();
+				
+				ControladorRecetario controlador = new ControladorRecetario(ventana,poIntroducir,poConsultar, ListaRecetas); //añadimos las 3 ventanas al controlador
+				
+				ventana.setControlador(controlador);
+				ventana.hacerVisible();
+			}
+		});
+	}
+	
+}
+	
+

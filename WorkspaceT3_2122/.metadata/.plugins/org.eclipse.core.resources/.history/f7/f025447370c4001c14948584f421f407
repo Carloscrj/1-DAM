@@ -1,0 +1,36 @@
+package mcv.ejecutable;
+
+import java.awt.EventQueue;
+
+import dam.control.PruebasUF9_6Controlador;
+import dam.view.PanelOpcion11;
+import dam.view.PanelOpcion12;
+import mvc.view.PanelConsultar;
+import mvc.view.PanelIntroducir;
+import mvc.view.VRecetario;
+
+
+
+public class InicioRecetario {
+
+	public static void main(String[] args) {
+		
+	EventQueue.invokeLater(new Runnable() {
+			
+			@Override
+			public void run() {
+				VRecetario ventana = new VRecetario(); //para crear la ventana necesitamos los datos por parámetro
+				PanelIntroducir poIntroducir = new PanelIntroducir(); //también creamos los objetos de las nuevas ventanas creadas
+				PanelConsultar poConsultar = new PanelConsultar();
+				
+				VRecetario controlador = new VRecetario(ventana, poIntroducir) //añadimos las 3 ventanas al controlador
+				
+				ventana.setControlador(controlador);
+				ventana.hacerVisible();
+			}
+		});
+	}
+	
+}
+	
+

@@ -1,0 +1,7 @@
+package dam.biblioteca.model;
+
+public class CDAudio extends CD {
+	private int nunCanciones;
+	
+	
+}

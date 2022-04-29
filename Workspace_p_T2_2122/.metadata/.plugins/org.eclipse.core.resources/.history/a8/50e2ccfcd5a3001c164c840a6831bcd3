@@ -1,0 +1,5 @@
+package dam.ep.model;
+
+public class CDMp3 extends CD {
+
+}

@@ -1,0 +1,61 @@
+package mvc.view;
+
+import javax.swing.JFrame;
+import java.awt.BorderLayout;
+import javax.swing.JMenuBar;
+import javax.swing.JMenuItem;
+import javax.swing.JPanel;
+import javax.swing.JSeparator;
+import javax.swing.JScrollPane;
+
+public class VCorredor extends JFrame {
+	
+	public static final int ANCHO = 800;
+	public static final int ALTO = 600;
+	public static final String MNTN_INTRODUCIR = "Introducir Receta";
+	public static final String MNTN_CONSULTAR = "Consultar Receta";
+	public static final String MNTN_SALIR = "Salir";
+	private JScrollPane scrpContenedor;
+	
+	public VCorredor() {
+		
+		setTitle("Lista Corredores");
+		setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
+		setSize(600, 800);
+		getContentPane().setLayout(new BorderLayout(0, 0));
+		
+		scrpContenedor = new JScrollPane();
+		getContentPane().add(scrpContenedor, BorderLayout.CENTER);
+		
+		JMenuBar mnbMenu = new JMenuBar();
+		setJMenuBar(mnbMenu);
+		
+		JMenuItem mntmMenu1 = new JMenuItem(MNTN_INTRODUCIR);
+		mnbMenu.add(mntmMenu1);
+		
+		JSeparator separator = new JSeparator();
+		mnbMenu.add(separator);
+		
+		JMenuItem mntmMenu2 = new JMenuItem(MNTN_CONSULTAR);
+		mnbMenu.add(mntmMenu2);
+		
+		JSeparator separator_1 = new JSeparator();
+		mnbMenu.add(separator_1);
+		
+		JMenuItem mntmMenu3 = new JMenuItem(MNTN_SALIR);
+		mnbMenu.add(mntmMenu3);
+	}
+	
+	public void hacerVisible() {
+		setVisible(true);
+	}
+	
+	public void cargarPanel(JPanel panel) { //aquí añadimos como parámetro el ScrollPane que nos pasen; Opción 11 u Opción 12
+		scrp.setViewportView(panel);
+	}
+
+	public static void main(String[] args) {
+		
+	}
+
+}

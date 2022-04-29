@@ -1,0 +1,8 @@
+package mvc.modelo;
+
+public class Receta {
+	private String nombre;
+	private int anios;
+	private double interes;
+
+}

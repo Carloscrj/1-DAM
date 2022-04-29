@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Extract method &apos;private void inicializarComponentes()&apos; from &apos;dam.view.VResolverEcuacion.VResolverEcuacion()&apos; to &apos;dam.view.VResolverEcuacion&apos;&#x0D;&#x0A;- Original project: &apos;ActividadUF9_3_Ej3&apos;&#x0D;&#x0A;- Method name: &apos;inicializarComponentes&apos;&#x0D;&#x0A;- Destination type: &apos;dam.view.VResolverEcuacion&apos;&#x0D;&#x0A;- Declared visibility: &apos;private&apos;" comments="false" description="Extract method &apos;inicializarComponentes&apos;" destination="0" exceptions="false" flags="786434" id="org.eclipse.jdt.ui.extract.method" input="/src&lt;dam.view{VResolverEcuacion.java" name="inicializarComponentes" replace="false" selection="133 128" stamp="1648710278425" version="1.0" visibility="2"/>
+</session>

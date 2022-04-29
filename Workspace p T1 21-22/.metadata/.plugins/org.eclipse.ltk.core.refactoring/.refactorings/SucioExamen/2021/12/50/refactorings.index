@@ -1,0 +1,17 @@
+1639415295739	Rename type 'Ejercicio7'
+1639415455572	Extract method 'inicializarArray'
+1639415735061	Extract method 'rellenarArray'
+1639416091238	Extract method 'generarAleatorio'
+1639416899049	Extract method 'mostrarArray'
+1639417604043	Rename type 'Ejercicio7Sucio'
+1639417668125	Rename package 'dam.ej9.arrays'
+1639417677773	Delete element
+1639417692623	Delete element
+1639418259806	Extract method 'inicializarArray'
+1639418586171	Extract method 'mostrarArray'
+1639419049613	Extract method 'analizarArray'
+1639434127256	Rename package 'exa1final'
+1639434406003	Extract method 'inicializarArray'
+1639434693023	Extract method 'rellenarArray'
+1639435660539	Extract method 'mostrarArray'
+1639435810853	Extract method 'analizarArray'

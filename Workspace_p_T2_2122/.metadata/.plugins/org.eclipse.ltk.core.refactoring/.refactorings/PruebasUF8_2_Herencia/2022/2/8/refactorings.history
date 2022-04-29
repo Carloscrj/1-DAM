@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename type &apos;pruebas.herencia.model.TPEjecucuion&apos; to &apos;TPEjecucion&apos;&#x0D;&#x0A;- Original project: &apos;PruebasUF8_2_Herencia&apos;&#x0D;&#x0A;- Original element: &apos;pruebas.herencia.model.TPEjecucuion&apos;&#x0D;&#x0A;- Renamed element: &apos;pruebas.herencia.model.TPEjecucion&apos;&#x0D;&#x0A;- Update references to refactored element&#x0D;&#x0A;- Update textual occurrences in comments and strings" description="Rename type &apos;TPEjecucuion&apos;" flags="589830" id="org.eclipse.jdt.ui.rename.type" input="/src&lt;pruebas.herencia.model{TPEjecucuion.java[TPEjecucuion" matchStrategy="1" name="TPEjecucion" qualified="false" references="true" similarDeclarations="false" stamp="1645698195711" textual="false" version="1.0"/>
+</session>

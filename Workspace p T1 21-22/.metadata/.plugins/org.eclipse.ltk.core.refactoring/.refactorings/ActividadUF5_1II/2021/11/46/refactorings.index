@@ -1,0 +1,4 @@
+1637225733890	Rename type 'Patron'
+1637225754910	Rename type 'ClasesPatron'
+1637225874575	Extract method 'introducirDatos'
+1637227752104	Extract method 'datosAlumno'

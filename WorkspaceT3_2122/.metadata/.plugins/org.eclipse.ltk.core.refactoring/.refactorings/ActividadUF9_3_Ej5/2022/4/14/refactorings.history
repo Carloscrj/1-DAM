@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename type &apos;dam.control.SalarioComprobador&apos; to &apos;SalarioControlador&apos;&#x0D;&#x0A;- Original project: &apos;ActividadUF9_3_Ej5&apos;&#x0D;&#x0A;- Original element: &apos;dam.control.SalarioComprobador&apos;&#x0D;&#x0A;- Renamed element: &apos;dam.control.SalarioControlador&apos;&#x0D;&#x0A;- Update references to refactored element&#x0D;&#x0A;- Update textual occurrences in comments and strings" description="Rename type &apos;SalarioComprobador&apos;" flags="589830" id="org.eclipse.jdt.ui.rename.type" input="/src&lt;dam.control{SalarioComprobador.java[SalarioComprobador" matchStrategy="1" name="SalarioControlador" qualified="false" references="true" similarDeclarations="false" stamp="1649055247979" textual="false" version="1.0"/>
+</session>

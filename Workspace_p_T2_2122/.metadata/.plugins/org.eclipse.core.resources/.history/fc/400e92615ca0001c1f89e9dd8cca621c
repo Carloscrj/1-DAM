@@ -1,0 +1,25 @@
+package dam.biblioteca.model;
+
+public class Libro extends Ejemplar {
+	private String titulo;
+	private String autor;
+	private int numPag;
+	
+	public Libro(int totalEjem, int numEjemPrest, String titulo, String autor, int numPag) {
+		super(totalEjem, numEjemPrest);
+		this.titulo = titulo;
+		this.autor = autor;
+		this.numPag = numPag;
+	}
+
+	@Override
+	public String toString() {
+		return super.toString()+ "Libro [titulo=" + titulo + ", autor=" + autor + ", numPag=" + numPag + "]";
+	}
+	
+	
+	
+	
+	
+
+}

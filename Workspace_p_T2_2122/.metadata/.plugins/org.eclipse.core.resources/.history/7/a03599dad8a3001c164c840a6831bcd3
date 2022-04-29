@@ -1,0 +1,7 @@
+package dam.ep.model;
+
+public class CDDatos extends CD {
+	private String identificador;
+	private String tipoDeDatos;
+	
+}

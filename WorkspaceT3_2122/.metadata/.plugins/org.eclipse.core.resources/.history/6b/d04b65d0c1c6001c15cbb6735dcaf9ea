@@ -1,0 +1,14 @@
+package mvc.modelo;
+
+public class Corredor {
+	
+	public static final String[] MODALIDAD= {"10000", "MEDIA MARATÓN", "MARATÓN"};
+	
+	private String nombre;
+	private int dorsal;
+	private String sexo;
+	private int edad;
+	private String modalidad;
+	
+	
+}

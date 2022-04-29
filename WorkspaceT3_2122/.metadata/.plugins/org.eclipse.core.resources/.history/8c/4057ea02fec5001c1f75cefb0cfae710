@@ -1,0 +1,23 @@
+package mvc.modelo;
+
+import java.util.ArrayList;
+
+
+
+public class ListaRecetas {
+	
+	private ArrayList<Receta> lista;
+	
+	public ListaRecetas() { //constructor
+		lista = new ArrayList<>(); //inicializamos el arraylist para cuando empecemos a introducir encuestas
+	}
+
+	public ArrayList<Receta> getListado() { //getter de la encuesta
+		return lista;
+	}
+	
+	public void nuevaEncuesta(Receta receta) { //método para añadir encuestas
+		listado.add(encuesta);
+	}
+
+}

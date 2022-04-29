@@ -1,0 +1,15 @@
+package mvc.view;
+
+import javax.swing.JFrame;
+import java.awt.BorderLayout;
+
+public class VCorredor extends JFrame {
+	public VCorredor() {
+		getContentPane().setLayout(new BorderLayout(0, 0));
+	}
+
+	public static void main(String[] args) {
+		
+	}
+
+}

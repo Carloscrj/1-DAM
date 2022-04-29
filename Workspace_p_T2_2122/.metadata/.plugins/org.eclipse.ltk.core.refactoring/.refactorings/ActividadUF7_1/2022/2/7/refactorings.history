@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename package &apos;ej3&apos; to &apos;ej3HasMap&apos;&#x0D;&#x0A;- Original project: &apos;ActividadUF7_1&apos;&#x0D;&#x0A;- Original element: &apos;ActividadUF7_1/ej3&apos;&#x0D;&#x0A;- Renamed element: &apos;ActividadUF7_1/ej3HasMap&apos;&#x0D;&#x0A;- Update references to refactored element&#x0D;&#x0A;- Update textual occurrences in comments and strings" description="Rename package &apos;ej3&apos;" flags="589830" hierarchical="false" id="org.eclipse.jdt.ui.rename.package" input="/&lt;ej3" name="ej3HasMap" qualified="false" references="true" stamp="1644866894171" textual="false" version="1.0"/>
+</session>

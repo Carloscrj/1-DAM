@@ -1,0 +1,46 @@
+package mvc.modelo;
+
+import java.util.ArrayList;
+
+public class ListaCorredores {
+	
+private ArrayList<Corredor> listaCorredores;
+private ArrayList<Corredor> listaCorredoresHombres;
+private ArrayList<Corredor> listaCorredoresMujeres;
+	
+	public ListaCorredores(){
+		listaCorredores= new ArrayList<Corredor>();
+		listaCorredoresHombres= new ArrayList<Corredor>();
+		listaCorredoresMujeres= new ArrayList<Corredor>();
+	}
+	
+	
+
+
+	public ArrayList<Corredor> obtenerCorredoresSexo(String sexo) {
+		ArrayList<Corredor> listaCorredoresSex;
+	}
+
+
+
+
+	public ArrayList<Corredor> getListaCorredoresMujeres() {
+		return listaCorredoresMujeres;
+	}
+
+
+
+
+	public void nuevoCorredor(Corredor corredor) { //método para añadir encuestas
+		listaCorredores.add(corredor);
+	}
+
+
+	public ArrayList<Corredor> getListaCorredores() {
+		return listaCorredores;
+	}
+	
+	
+
+
+}

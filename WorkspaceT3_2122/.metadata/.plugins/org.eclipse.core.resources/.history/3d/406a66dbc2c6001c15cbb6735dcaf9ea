@@ -1,0 +1,13 @@
+package mvc.view;
+
+import javax.swing.JFrame;
+
+public class VCorredor extends JFrame {
+	public VCorredor() {
+	}
+
+	public static void main(String[] args) {
+		
+	}
+
+}

@@ -1,0 +1,16 @@
+package dam.biblioteca.model;
+
+public class Libro extends Ejemplar {
+	private String titulo;
+	public Libro(int totalEjem, int numEjemPrest, String titulo, String autor, int numPag) {
+		super(totalEjem, numEjemPrest);
+		this.titulo = titulo;
+		this.autor = autor;
+		this.numPag = numPag;
+	}
+	private String autor;
+	private int numPag;
+	
+	
+
+}

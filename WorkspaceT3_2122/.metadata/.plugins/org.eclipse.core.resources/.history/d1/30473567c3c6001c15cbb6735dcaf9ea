@@ -1,0 +1,43 @@
+package mvc.view;
+
+import javax.swing.JFrame;
+import java.awt.BorderLayout;
+import javax.swing.JMenuBar;
+import javax.swing.JMenuItem;
+import javax.swing.JSeparator;
+
+public class VCorredor extends JFrame {
+	
+	public static final int ANCHO = 800;
+	public static final int ALTO = 600;
+	public static final String MNTN_INTRODUCIR = "Introducir Receta";
+	public static final String MNTN_CONSULTAR = "Consultar Receta";
+	public static final String MNTN_SALIR = "Salir";
+	
+	public VCorredor() {
+		getContentPane().setLayout(new BorderLayout(0, 0));
+		
+		JMenuBar mnbMenu = new JMenuBar();
+		setJMenuBar(mnbMenu);
+		
+		JMenuItem mntmMenu1 = new JMenuItem("New menu item");
+		mnbMenu.add(mntmMenu1);
+		
+		JSeparator separator = new JSeparator();
+		mnbMenu.add(separator);
+		
+		JMenuItem mntmMenu2 = new JMenuItem("New menu item");
+		mnbMenu.add(mntmMenu2);
+		
+		JSeparator separator_1 = new JSeparator();
+		mnbMenu.add(separator_1);
+		
+		JMenuItem mntmMenu3 = new JMenuItem("New menu item");
+		mnbMenu.add(mntmMenu3);
+	}
+
+	public static void main(String[] args) {
+		
+	}
+
+}

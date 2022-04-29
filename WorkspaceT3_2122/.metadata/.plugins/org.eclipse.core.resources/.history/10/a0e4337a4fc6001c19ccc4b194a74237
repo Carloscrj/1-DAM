@@ -1,0 +1,70 @@
+package mvc.control;
+
+import java.awt.Panel;
+import java.awt.event.ActionEvent;
+import java.awt.event.ActionListener;
+
+import javax.swing.JButton;
+import javax.swing.JMenuItem;
+import javax.swing.JOptionPane;
+import mvc.modelo.ListaRecetas;
+import mvc.modelo.Receta;
+import mvc.view.PanelConsultar;
+import mvc.view.PanelIntroducir;
+import mvc.view.VRecetario;
+
+public class ControladorRecetario implements ActionListener {
+	
+	VRecetario ventana;
+	PanelIntroducir poIntroducir;
+	PanelConsultar poConsultar;
+	ListaRecetas liRecetas;
+	
+	
+
+	public ControladorRecetario(VRecetario ventana, PanelIntroducir poIntroducir, PanelConsultar poConsultar, ListaRecetas liRecetas) {
+		this.ventana = ventana;
+		this.poIntroducir = poIntroducir;
+		this.poConsultar = poConsultar;
+		this.liRecetas = liRecetas;
+	}
+	
+	
+	@Override
+	public void actionPerformed(ActionEvent e) {
+		
+		if (e.getSource() instanceof JMenuItem) { //Si se hace click en cada uno de los submenús
+			if (e.getActionCommand().equals(VRecetario.MNTN_INTRODUCIR)) {
+				ventana.cargarPanel(poIntroducir);
+			} else if (e.getActionCommand().equals(VRecetario.MNTN_CONSULTAR)) {
+				ventana.cargarPanel(poConsultar);
+			} else if (e.getActionCommand().equals(VRecetario.MNTN_SALIR)) {
+				int resp=JOptionPane.showConfirmDialog(ventana,
+						"Se va a cerrrar la aplicación, ¿Desea continuar?",
+						"Confirmar salida",
+						JOptionPane.YES_NO_OPTION,
+						JOptionPane.INFORMATION_MESSAGE);
+						if (resp== JOptionPane.YES_NO_OPTION) {
+							System.exit(0);
+						}
+				//ventana.mostrarMensaje("Se ha pulsado la opción 1.3", "Menú");
+			} 
+		}else if (e.getSource() instanceof JButton) { //si el componente en el que se ha producido el evento es un botón
+			if (e.getActionCommand().equals(PanelIntroducir.BTN_GUARDAR)) { //así identifico que se ha seleccionado el botón limpiar
+				Receta receta = poIntroducir.obtenerReceta(); //almacenamos los datos con este objeto a través del método y después
+				liRecetas.nuevaReceta(receta);//añadimos al ArrayList del pojo ListaEncuestas, una nueva encuesta con los datos obtenido en la línea anterior
+				if ( receta!= null) {
+					poIntroducir.mostrarMensaje("Receta guardada", "Guardar Receta");
+					poIntroducir.limpiarRecetas();
+				}
+				
+			} else if (e.getActionCommand().equals(PanelConsultar.BTN_MOST)) {
+				poConsultar.getListaRecetas();
+			}
+		
+
+		}
+
+	}
+	
+}

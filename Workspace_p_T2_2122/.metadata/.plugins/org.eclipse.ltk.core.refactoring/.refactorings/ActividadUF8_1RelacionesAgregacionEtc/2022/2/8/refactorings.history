@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename type &apos;ej1.asociacion.Pelicula&apos; to &apos;Actor&apos;&#x0D;&#x0A;- Original project: &apos;ActividadUF8_1RelacionesAgregacionEtc&apos;&#x0D;&#x0A;- Original element: &apos;ej1.asociacion.Pelicula&apos;&#x0D;&#x0A;- Renamed element: &apos;ej1.asociacion.Actor&apos;&#x0D;&#x0A;- Update references to refactored element&#x0D;&#x0A;- Update textual occurrences in comments and strings" description="Rename type &apos;Pelicula&apos;" flags="589830" id="org.eclipse.jdt.ui.rename.type" input="/src&lt;ej1.asociacion{Pelicula.java[Pelicula" matchStrategy="1" name="Actor" qualified="false" references="true" similarDeclarations="false" stamp="1645690843528" textual="false" version="1.0"/>
+</session>

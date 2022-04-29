@@ -1,0 +1,19 @@
+package mvc.view;
+
+import javax.swing.JFrame;
+import java.awt.BorderLayout;
+import javax.swing.JMenuBar;
+
+public class VCorredor extends JFrame {
+	public VCorredor() {
+		getContentPane().setLayout(new BorderLayout(0, 0));
+		
+		JMenuBar menuBar = new JMenuBar();
+		setJMenuBar(menuBar);
+	}
+
+	public static void main(String[] args) {
+		
+	}
+
+}

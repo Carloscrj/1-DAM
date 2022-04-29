@@ -1,0 +1,5 @@
+package dam.ep.model;
+
+public class CDAudio extends CD {
+	private String título
+}

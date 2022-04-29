@@ -1,0 +1,19 @@
+package dam.ep.model;
+
+import java.util.ArrayList;
+
+import dam.emp.model.Empleado;
+
+public class CDSoftware extends CD {
+	private String identificador;
+	private ArrayList<Aplicaciones> listaAplicaciones;
+	
+	public CDSoftware(int capacidadMB, String tipo, String identificador, ArrayList<Aplicaciones> listaAplicaciones) {
+		super(capacidadMB, tipo);
+		this.identificador = identificador;
+		this.listaEmpleados = listaEmpleados;
+		listaAplicaciones = new ArrayList<Aplicaciones>();
+	}
+	
+	
+}

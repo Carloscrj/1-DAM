@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<qualifiedTypeNameHistroy>
+    <fullyQualifiedTypeName name="dam.ej1.pojo.Coche"/>
+    <fullyQualifiedTypeName name="dam.pruebas.pojo.Libro"/>
+    <fullyQualifiedTypeName name="dam.ej3.pojo.Helipuerto"/>
+    <fullyQualifiedTypeName name="dam.ej4.pojo.CampoFutbol"/>
+    <fullyQualifiedTypeName name="dam.ejercicioswitch1.pojo.Jugador"/>
+    <fullyQualifiedTypeName name="dam.ejercicio3.pojo.EquipoFutbol"/>
+    <fullyQualifiedTypeName name="dam.ej1pojo.Clase1"/>
+    <fullyQualifiedTypeName name="dam.ej2.pojo.Clase2"/>
+    <fullyQualifiedTypeName name="dam.coche1p.pojo.Cochito"/>
+    <fullyQualifiedTypeName name="dam.campo4p.pojo.Campito"/>
+    <fullyQualifiedTypeName name="dam.ejer4if.main.UsoRueda"/>
+    <fullyQualifiedTypeName name="dam.ejer4if.pojo.Rueda"/>
+    <fullyQualifiedTypeName name="dam.ejercicio5.pojo.Rueda"/>
+    <fullyQualifiedTypeName name="java.lang.System"/>
+    <fullyQualifiedTypeName name="dam.ej31.pojo.Alumno"/>
+    <fullyQualifiedTypeName name="java.lang.String"/>
+    <fullyQualifiedTypeName name="java.lang.StringBuilder"/>
+    <fullyQualifiedTypeName name="java.net.http.HttpConnectTimeoutException"/>
+    <fullyQualifiedTypeName name="java.util.Random"/>
+    <fullyQualifiedTypeName name="dam.ej9.pojo.Encuesta"/>
+    <fullyQualifiedTypeName name="dam.ej11.pojo.Recetas"/>
+    <fullyQualifiedTypeName name="dam.ej10.pojo.Articulos"/>
+    <fullyQualifiedTypeName name="java.util.StringTokenizer"/>
+    <fullyQualifiedTypeName name="dam.ej9.arrays.pojo.Receta"/>
+    <fullyQualifiedTypeName name="dam.ej2.pojo.Covid"/>
+    <fullyQualifiedTypeName name="java.lang.Integer"/>
+    <fullyQualifiedTypeName name="exa1final.pojo.Encuesta"/>
+    <fullyQualifiedTypeName name="java.util.Scanner"/>
+</qualifiedTypeNameHistroy>

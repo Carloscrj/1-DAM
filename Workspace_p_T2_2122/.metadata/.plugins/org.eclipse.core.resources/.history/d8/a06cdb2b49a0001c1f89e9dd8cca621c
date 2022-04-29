@@ -1,0 +1,7 @@
+package dam.biblioteca.model;
+
+public class Libro extends Ejemplar {
+	private String titulo;
+	
+
+}

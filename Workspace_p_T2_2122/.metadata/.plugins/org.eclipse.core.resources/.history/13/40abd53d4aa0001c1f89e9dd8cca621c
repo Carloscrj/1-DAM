@@ -1,0 +1,7 @@
+package dam.biblioteca.model;
+
+public class CDVideo extends CD {
+	private String clasificacion;
+	
+	
+}

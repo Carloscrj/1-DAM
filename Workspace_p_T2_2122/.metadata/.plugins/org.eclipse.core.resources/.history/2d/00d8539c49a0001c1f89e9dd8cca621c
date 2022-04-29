@@ -1,0 +1,7 @@
+package dam.biblioteca.model;
+
+public class CD extends Ejemplar {
+	protected String nombre;
+	protected double duracion;
+
+}
