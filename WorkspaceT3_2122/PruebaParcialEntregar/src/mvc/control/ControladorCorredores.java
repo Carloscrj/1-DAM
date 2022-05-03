@@ -63,24 +63,24 @@ import mvc.view.VCorredor;
 			} else if (e.getActionCommand().equals(PanelIntroducir.LIMPIAR_DATOS)) {
 				poIntroducir.limpiarCorredores();
 			} else if (e.getActionCommand().equals(PanelConsultar.BTN_CONSULTAR)) {
-				poConsultar.hacerVisibleScrp(true);
-		
+				
+				if (liCorredores.getListaCorredores().isEmpty()) {
+					poConsultar.mostrarError("No hay datos que mostrar", "Error");
+				} else {
+					 String sexo = poConsultar.obtenerSexo();
+					 if (sexo.equals("Todos")) {
+						 poConsultar.rellenarTabla(liCorredores.getListaCorredores());
+					} else if (sexo.equals("Hombre")) {
+						poConsultar.rellenarTabla(liCorredores.obtenerCorredoresSexo(sexo));
+					} else if (sexo.equals("Mujer")) {
+						poConsultar.rellenarTabla(liCorredores.obtenerCorredoresSexo(sexo));
+					}
+						poConsultar.hacerVisibleScrp(true);
+				}
+			
 
 		} 
 
-	}else if (e.getSource() instanceof JRadioButton) { 
-		
-		if (e.getActionCommand().equals(PanelConsultar.RBTN_HOMBRE)) { //así identifico que se ha seleccionado el botón limpiar
-			poConsultar.rellenarTabla(liCorredores.obtenerCorredoresSexo("Hombre")); 
-			
-		} else if (e.getActionCommand().equals(PanelConsultar.RBTN_MUJER)) {
-			poConsultar.rellenarTabla(liCorredores.obtenerCorredoresSexo("Mujer")); 
-			
-		} else if(e.getActionCommand().equals(PanelConsultar.RBTN_TODOS)){
-			poConsultar.rellenarTabla(liCorredores.getListaCorredores()); 
-			
-		}
-		
 	}
 
   }

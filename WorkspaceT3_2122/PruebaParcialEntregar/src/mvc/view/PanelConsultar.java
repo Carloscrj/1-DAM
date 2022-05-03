@@ -2,6 +2,7 @@ package mvc.view;
 
 import javax.swing.JPanel;
 import javax.swing.JButton;
+import javax.swing.JOptionPane;
 
 import java.awt.Dimension;
 import java.awt.Font;
@@ -145,6 +146,28 @@ public class PanelConsultar extends JPanel {
 	
 	}
 	
+	public String obtenerSexo() {
+		String sexo = "";
+		if (rbtnHombre.isSelected()) {
+			sexo = rbtnHombre.getText();
+			
+		}else if (rbtnMujer.isSelected()) {
+			sexo = rbtnMujer.getText();
+			
+		}else if (rbtnTodos.isSelected()) {
+			sexo = rbtnTodos.getText();
+			
+		} 
+		
+		return sexo;
+	}
+	
+	public void mostrarError(String error, String titulo) {
+		JOptionPane.showMessageDialog(this, //ventana
+				error, //mensaje
+				titulo, //título ventana
+				JOptionPane.ERROR_MESSAGE); //tipo icono de la ventana 
+	}
 
 
 

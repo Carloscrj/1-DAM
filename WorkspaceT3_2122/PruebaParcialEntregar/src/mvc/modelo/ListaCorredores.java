@@ -15,7 +15,7 @@ private ArrayList<Corredor> listaCorredores;
 
 	public ArrayList<Corredor> obtenerCorredoresSexo(String sexo) {
 		ArrayList<Corredor> listaCorredoresSexo = new ArrayList<Corredor>();
-		for (Corredor corredor : listaCorredoresSexo) {
+		for (Corredor corredor : listaCorredores) {
 			if (corredor.getSexo().equals(sexo)) {
 				listaCorredoresSexo.add(corredor);
 			}
