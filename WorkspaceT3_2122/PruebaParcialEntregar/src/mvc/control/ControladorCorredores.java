@@ -70,12 +70,13 @@ import mvc.view.VCorredor;
 					 String sexo = poConsultar.obtenerSexo();
 					 if (sexo.equals("Todos")) {
 						 poConsultar.rellenarTabla(liCorredores.getListaCorredores());
-					} else if (sexo.equals("Hombre")) {
+						 
+					} else {
 						poConsultar.rellenarTabla(liCorredores.obtenerCorredoresSexo(sexo));
-					} else if (sexo.equals("Mujer")) {
-						poConsultar.rellenarTabla(liCorredores.obtenerCorredoresSexo(sexo));
-					}
+						
+					} 
 						poConsultar.hacerVisibleScrp(true);
+						
 				}
 			
 
