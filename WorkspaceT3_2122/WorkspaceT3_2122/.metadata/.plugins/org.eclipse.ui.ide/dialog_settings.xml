@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<section name="Workbench">
+	<section name="SmartImportWizard">
+		<item key="SmartImportRootWizardPage.STORE_HIDE_ALREADY_OPEN" value="false"/>
+		<item key="SmartImportRootWizardPage.STORE_CLOSE_IMPORTED" value="false"/>
+		<item key="SmartImportRootWizardPage.STORE_NESTED_PROJECTS" value="true"/>
+		<item key="SmartImportRootWizardPage.STORE_CONFIGURE_NATURES" value="true"/>
+		<list key="org.eclipse.ui.internal.wizards.datatransfer.SmartImportRootWizardPage.knownSources">
+			<item value="C:\WORKSPACE\WorkspaceT3_2122\PruebasUF9_6_Tablas_PopUp"/>
+			<item value="C:\WORKSPACE\WorkspaceT3_2122\PruebasUF9_6_Menu_Panel"/>
+			<item value="C:\WORKSPACE\WorkspaceT3_2122\PruebasUF9_5_MVC"/>
+			<item value="C:\WORKSPACE\WorkspaceT3_2122\Actividad_UF9_4_COVID"/>
+		</list>
+	</section>
+</section>

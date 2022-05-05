@@ -1,0 +1,21 @@
+package dam.main;
+
+import java.util.ArrayList;
+import dam.model.Alumno;
+import dam.persistencia.AlumnosPersistencia;
+
+public class PruebaConexion {
+
+    public static void main(String[] args) {
+        AlumnosPersistencia ap = new AlumnosPersistencia();
+
+        ArrayList<Alumno> listaAlumnos = ap.selecccionarAlumnos();
+
+        for (Alumno alumno : listaAlumnos) {
+            System.out.println(alumno);
+        }
+    }
+
+}
+
+

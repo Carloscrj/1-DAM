@@ -1,0 +1,37 @@
+package dam.main;
+
+import java.util.ArrayList;
+import java.util.Scanner;
+
+import dam.model.Alumno;
+import dam.persistencia.AlumnosPersistencia;
+
+public class PruebaConexion {
+
+    public static void main(String[] args) {
+        AlumnosPersistencia ap = new AlumnosPersistencia();
+
+        ArrayList<Alumno> listaAlumnos = ap.selecccionarAlumnos();
+
+        for (Alumno alumno : listaAlumnos) {
+            System.out.println(alumno);
+        }
+        
+        Scanner sc= new Scanner(System.in);
+        
+        System.out.println("##Introduce el dni del alumno que desea consultar");
+        String dni = sc.nextLine().toUpperCase();
+        
+        Alumno alumnoDni= ap.selectAlumnoDni();
+        
+        if (alumnoDni != null) {
+			System.out.println(alumnoDni);
+		}else {
+			System.out.println("No se han encontrado datos para el dni indicadso.");
+		}
+        
+        sc.close();
+        
+    }
+
+}

@@ -1,0 +1,31 @@
+package dam.db;
+
+import java.sql.Connection;
+import java.sql.DriverManager;
+import java.sql.SQLException;
+
+public class AccesoDB {
+	private String driver;//tipo de gestor de base de datos que vamos a usar
+	private String url;//atributo para la ubicación del archivo
+	
+	public AccesoDB() {//constructor por defecto
+		driver = "org.sqlite.JDBC" ;
+		url= "jdbc:sqlite:db/PruebasDB.db";//nombre que que 
+	}
+
+	public Connection getConexion throws ClassNotF()  {
+		Class.forName(driver);
+		Connection con= DriverManager.getConnection(url); 
+			/*
+		} catch (ClassNotFoundException e) {
+			System.out.println("El driver indicado no es correcto");
+			e.printStackTrace();//me sale toda la información de la excepción
+		} catch (SQLException e) {
+			System.out.println("No es posible establecer la conexión con la base de datos");
+			e.printStackTrace();
+		}*/
+				
+		return con;
+	}
+
+}

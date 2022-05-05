@@ -1,0 +1,6 @@
+package dam.model;
+
+public class Alumno {
+	private String dni;
+	
+}

@@ -1,0 +1,5 @@
+package dam.persistencia;
+
+public class AlumnosContract {
+	public static final String NOM_TABLA= "ALUMNOS"
+}
